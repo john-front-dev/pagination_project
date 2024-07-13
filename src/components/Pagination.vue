@@ -1,4 +1,3 @@
-// components/Pagination.vue
 <template>
   <div class="pagination">
     <button @click="goToPage(1)" :disabled="currentPage === 1">«</button>

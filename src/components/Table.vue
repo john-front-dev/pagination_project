@@ -1,4 +1,3 @@
-// components/Table.vue
 <template>
   <table>
     <thead>
