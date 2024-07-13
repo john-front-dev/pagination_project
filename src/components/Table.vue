@@ -7,7 +7,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="item in data" :key="item.id">
+      <tr v-for="item in props.data" :key="item.id">
         <td>{{ item.id }}</td>
         <td>{{ item.name }}</td>
       </tr>
