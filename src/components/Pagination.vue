@@ -51,6 +51,11 @@ const showRightEllipsis = computed(() => store.currentPage < store.totalPages - 
 }
 
 .pagination button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #007bff;
+  cursor: pointer;
+  outline: none;
   padding: 0.5rem 1rem;
 }
 
@@ -63,4 +68,9 @@ const showRightEllipsis = computed(() => store.currentPage < store.totalPages - 
   color: #6c757d;
   cursor: not-allowed;
 }
+
+.pagination button:hover {
+  background-color: #e9ecef;
+}
+
 </style>
